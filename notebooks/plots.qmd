@@ -1,0 +1,36 @@
+---
+title: Plots
+marimo-version: 0.13.15
+width: medium
+format: html
+filters:
+- marimo-team/marimo
+---
+
+```python {.marimo}
+import marimo as mo
+
+```
+
+```python {.marimo}
+import matplotlib.pyplot as plt
+
+```
+
+Output a plot object, such as an axis or figure, to see the plot.
+
+```python {.marimo}
+import numpy as np
+
+x = np.linspace(0, 10)
+plt.plot(x, x**2)
+plt.gca()
+```
+
+Calling `show()` methods displays the plot in the console area, which can be
+helpful for debugging because console outputs do not show up in the "app" preview.
+
+```python {.marimo}
+plt.plot(x, x**3)
+plt.show()
+```
