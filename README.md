@@ -15,14 +15,21 @@ This is repo try to describe the workflow where you create a marimo notebook for
 
 ### Steps to reproduce
 
-1. Create a marimo notebook
+1. Create a marimo notebook or clone this repo
+   `git clone https://github.com/laguill/marimo-quarto-render-plots.git`
 
 2. `uv sync -U`
 
 3. `uv run marimo edit notobooks/plots.py`
 
 4. Once finish editing convert to quarto document
-   `uv run marimo export md notebooks/plots.py -o notebooks/plots.qmd`
+
+   ```bash
+   uv run marimo export md notebooks/plots.py -o notebooks/plots.qmd
+   ```
 
 5. Install marimo-quarto extension
    `quarto add marimo-team/quarto-marimo`
+
+6. Preview document
+   `quarto preview notebooks/plots.qmd`
