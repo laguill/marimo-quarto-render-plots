@@ -2,7 +2,7 @@
 
 This is repo try to describe the workflow where you create a marimo notebook for a datascience project and then wants to share it in your blog as a markdown document.
 
-### Prerequis
+### Required
 
 1. quarto is installed globaly
    `uv tool install quarto-cli`

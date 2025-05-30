@@ -10,3 +10,6 @@ dependencies = [
     "seaborn>=0.13.2",
     "uv-bump>=0.1.2",
 ]
+
+[tool.marimo.runtime]
+pythonpath = ["."]
