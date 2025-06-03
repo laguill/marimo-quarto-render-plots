@@ -2,7 +2,6 @@
 title: Plots
 marimo-version: 0.13.15
 width: medium
-format: html
 filters:
 - marimo-team/marimo
 ---
