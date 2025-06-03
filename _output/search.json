@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "notebooks/plots.html",
+    "href": "notebooks/plots.html",
+    "title": "Plots",
+    "section": "",
+    "text": "import%20marimo%20as%20mo%0A\n\n\n    \n    \n    \n    import%20matplotlib.pyplot%20as%20plt%0A\n\nOutput a plot object, such as an axis or figure, to see the plot.\n\n    \n    \n    \n    import%20numpy%20as%20np%0A%0Ax%20%3D%20np.linspace(0%2C%2010)%0Aplt.plot(x%2C%20x**2)%0Aplt.gca()\n\nCalling show() methods displays the plot in the console area, which can be helpful for debugging because console outputs do not show up in the “app” preview.\n\n    \n    \n    \n    plt.plot(x%2C%20x**3)%0Aplt.show()\n\n\n\n\n Retour au sommet"
+  }
+]
