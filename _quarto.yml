@@ -21,16 +21,16 @@ execute:
 lang: fr
 
 author:
-  - name: Guillaume LAFON
-    affiliation: OpenClassrooms
-    email: guillaumelafon13@gmail.com
+  - name: Your Name
+    affiliation: Your company
+    email: email@address
 date: last-modified
 repo-url: https://github.com/laguill/
 repo-actions: [issue]
 sharing: [linkedin]
 
 website:
-  title: "P4 Anticiper les besoins de consommations de bâtiments"
+  title: "PLot debug"
   page-navigation: true
   back-to-top-navigation: true
   reader-mode: true
@@ -41,7 +41,7 @@ website:
     left: |
       Powered by [{{< iconify simple-icons:quarto title="Quarto Logo" label="Quarto Logo" >}} Quarto](https://quarto.org).
     center: |
-      &copy; []{#current-year} Guillaume LAFON. {{< iconify octicon:heart-fill-16 title="Heart" label="Heart" >}}.
+      &copy; []{#current-year} Your Name. {{< iconify octicon:heart-fill-16 title="Heart" label="Heart" >}}.
     right: |
       License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
 
